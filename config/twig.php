@@ -7,5 +7,5 @@ $twig = new Twig\Environment($loader, ['debug' => true]);
 $twig->addExtension(new Twig\Extension\DebugExtension());
 
 
-$contactEmail = 'Trouille Baptiste';
+$contactEmail = 'wilder.remotePHP@wildcodeschool.fr';
 $twig->addGlobal('contactEmail', $contactEmail);
